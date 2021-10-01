@@ -35,3 +35,11 @@ body {
 #secondaryText {
   font-size: 30px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 10px;
+  margin-top: 100px;
+  align-self: flex-end;
+}
