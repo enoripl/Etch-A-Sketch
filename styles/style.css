@@ -1,8 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: salmon; 
+  font-family: "Action Man", sans-serif;
+  src: url(https://fonts.cdnfonts.com/css/action-man?styles=16,13,8,7,12,15,11,14,10,9);
+}
+
 #boardContainer {
   height: 500px;
   width: 500px;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 20px;
+  border: 15px solid slateblue;
+  border-radius: 5%;
 }
 
 .pixels {
@@ -14,4 +26,14 @@
 
 .coloredPixel {
     background-color: sandybrown;
+}
+
+#headerText {
+  font-size: 60px;
+  -webkit-text-stroke: 1px white;
+  margin-top: 10px;
+}
+
+#secondaryText {
+  font-size: 30px;
 }
